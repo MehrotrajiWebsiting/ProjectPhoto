@@ -1,0 +1,114 @@
+body{
+    background-color: rgb(67, 154, 150);
+    color: white;
+}
+.smallcamera{
+    position:relative;
+    float: left;
+}
+
+/*VERY BIG*/
+@media(min-width:992px){
+.smallcamera{
+    height: 65x;
+    width: 65px;
+}
+.high{
+    margin-top:10px;
+    font-size: 50px;
+}
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 75%;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #0e0e0e84;
+    border-radius: 75%;
+    color: white;
+  }
+}
+
+
+/*HALF WINDOW*/
+@media(min-width:768px) and (max-width:991.9px){
+    .smallcamera{
+        height: 65px;
+        width: 65px;
+    }
+    .high{
+        margin-top:10px;
+        font-size: 50px;
+    }
+    .topnav a {
+        float: right;
+        margin-top: 9px;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      /* Change the color of links on hover */
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+        border-radius: 75%;
+      }
+      
+      /* Add a color to the active/current link */
+      .topnav a.active {
+        background-color: #0e0e0e84;
+        border-radius: 75%;
+        color: white;
+      }
+}
+
+
+/*SMALL*/
+@media(max-width:767.9px){
+    .smallcamera{
+        height: 18px;
+        width: 18px;
+    }
+    .high{
+        margin:2px;
+        text-align: top;
+        font-size: 15px;
+    }
+    .box-shadow-menu {
+        position: relative;
+        padding-left: 1.25em;
+        float: right;
+      }
+      .box-shadow-menu:before {
+        content: "";
+        float:right;
+        position: absolute;
+        left: 0;
+        top: 0.25em;
+        width: 1em;
+        height: 0.15em;
+        background: black;
+        box-shadow: 
+          0 0.25em 0 0 black,
+          0 0.5em 0 0 black;
+    }
+    #about,#news,#contact,#about{
+        margin: 10px;
+        text-align: centre;
+    }
+}
