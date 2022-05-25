@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(67, 154, 150);
+    background-color: #0E7C7B;
     color: white;
 }
 .smallcamera{
@@ -16,6 +16,11 @@ body{
 .high{
     margin-top:10px;
     font-size: 50px;
+}
+#bigcamera{
+  position: absolute;
+  right: 10px;
+  top:50px;
 }
 .topnav a {
     float: right;
@@ -39,18 +44,37 @@ body{
     border-radius: 75%;
     color: white;
   }
+
+
+  #line1{
+    margin-top: 20px;
+  }
+  #line1,#line2,#line3{
+  margin-left: 15px;
+  width: 851px;
+  height: 79px;
+  left: 113px;
+  top: 191px;
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 79px;
+  text-align: auto;
+  color: #FFFFFF;
+  }
 }
 
 
 /*HALF WINDOW*/
 @media(min-width:768px) and (max-width:991.9px){
     .smallcamera{
-        height: 65px;
-        width: 65px;
+        height: 60px;
+        width: 60px;
     }
     .high{
         margin-top:10px;
-        font-size: 50px;
+        font-size: 45px;
     }
     .topnav a {
         float: right;
@@ -74,6 +98,31 @@ body{
         background-color: #0e0e0e84;
         border-radius: 75%;
         color: white;
+      }
+      #line1{
+        margin-top: 20px;
+      }
+      #line1,#line2,#line3{
+      margin-left: 15px;
+      width: 840px;
+      height: 70px;
+      left: 113px;
+      top: 191px;
+      font-family: 'Fredoka One';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 55px;
+      line-height: 69px;
+      text-align: auto;
+      color: #FFFFFF;
+      }
+      #bigcamera{
+        position: absolute;
+        right: 10px;
+        top:20px;
+        opacity: .7;
+        width: 519px;
+        height: 671px;
       }
 }
 
@@ -107,8 +156,370 @@ body{
           0 0.25em 0 0 black,
           0 0.5em 0 0 black;
     }
-    #about,#news,#contact,#about{
-        margin: 10px;
-        text-align: centre;
+    #dabout,#dnews,#dcontact,#dhome{
+        margin-bottom: 1px;
+        text-align: center;
+        background-color: #ddd;
+    }
+    #dabout a:link,#dnews a:link,#dcontact a:link,#dhome a:link, #dabout a:visited,#dnews a:visited,#dcontact a:visited,#dhome a:visited{
+      text-decoration: none;
+      color: black;
+      font-size: 10px;
+    }
+    #dabout:hover,#dnews:hover,#dcontact:hover,#dhome:hover{
+      color:#0e0e0e84;
+      background-color: rgb(42, 121, 103);
+      box-shadow: 1px 1px 1px 1px;
+    }
+    #line1{
+      margin-top: 10px;
+    }
+    #line1,#line2,#line3{
+    margin-left: 5px;
+    width: 300px;
+    height: 30px;
+    left: 113px;
+    top: 191px;
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: auto;
+    color: #FFFFFF;
+    }
+    #bigcamera{
+      position: absolute;
+      right: 10px;
+      top:20px;
+      opacity: .7;
+      width: 250px;
+      height: 401px;
     }
 }
+
+
+
+/* hero 
+
+position: relative;
+width: 1440px;
+height: 973px;
+
+background: #0E7C7B;
+box-shadow: 0px 4px 250px rgba(0, 0, 0, 0.25);
+
+
+/* Rectangle 5 *
+
+position: absolute;
+width: 140px;
+height: 50px;
+left: 677px;
+top: 64px;
+
+background: #073636;
+border-radius: 82px;
+
+
+/* navigation *
+
+position: absolute;
+width: 672px;
+height: 28px;
+left: 688px;
+top: 75px;
+
+
+
+/* Home *
+
+position: absolute;
+width: 120px;
+height: 28px;
+left: 688px;
+top: 75px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Our works *
+
+position: absolute;
+width: 140px;
+height: 28px;
+left: 852px;
+top: 75px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* About us *
+
+position: absolute;
+width: 140px;
+height: 28px;
+left: 1036px;
+top: 75px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Contact us *
+
+position: absolute;
+width: 140px;
+height: 28px;
+left: 1220px;
+top: 75px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* High Pixel Zone *
+
+position: absolute;
+width: 186px;
+height: 36px;
+left: 176px;
+top: 73px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height *
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* 5a28d563aa6e96 1 /
+
+position: absolute;
+width: 619px;
+height: 731.71px;
+left: 711px;
+top: 162px;
+
+background: url(5a28d563aa6e96.png);
+
+
+/* Group 2 *
+
+position: absolute;
+width: 851px;
+height: 259px;
+left: 113px;
+top: 191px;
+
+filter: drop-shadow(0px 0px 40px rgba(0, 0, 0, 0.25));
+
+
+/* Telling Your Story Through /
+
+position: absolute;
+width: 851px;
+height: 79px;
+left: 113px;
+top: 191px;
+
+font-family: 'Fredoka One';
+font-style: normal;
+font-weight: 400;
+font-size: 65px;
+line-height: 79px;
+/* identical to box height *
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Meaningful and Beautiful *
+
+position: absolute;
+width: 799px;
+height: 79px;
+left: 113px;
+top: 281px;
+
+font-family: 'Fredoka One';
+font-style: normal;
+font-weight: 400;
+font-size: 65px;
+line-height: 79px;
+/* identical to box height *
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Photography *
+
+position: absolute;
+width: 408px;
+height: 79px;
+left: 113px;
+top: 371px;
+
+font-family: 'Fredoka One';
+font-style: normal;
+font-weight: 400;
+font-size: 65px;
+line-height: 79px;
+/* identical to box height *
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Lets take your photograph to the next level. Capturing wonderful and beautiful moments of your life *
+
+position: absolute;
+width: 498px;
+height: 168px;
+left: 109px;
+top: 469px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+
+color: #FFFFFF;
+
+
+
+/* Group 3 *
+
+position: absolute;
+width: 205px;
+height: 86px;
+left: 109px;
+top: 668px;
+
+
+
+/* Rectangle 6 *
+
+position: absolute;
+width: 205px;
+height: 86px;
+left: 109px;
+top: 668px;
+
+background: #073636;
+border-radius: 80px;
+
+
+/* Hire us *
+
+position: absolute;
+width: 115px;
+height: 42px;
+left: 154px;
+top: 690px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Group 5 *
+
+position: absolute;
+width: 84px;
+height: 73px;
+left: 77px;
+top: 55px;
+
+
+
+/* Ellipse 1/
+
+position: absolute;
+width: 73px;
+height: 73px;
+left: 77px;
+top: 55px;
+
+background: #FFFFFF;
+
+
+/* Group 4 *
+
+position: absolute;
+width: 73px;
+height: 73px;
+left: 88px;
+top: 55px;
+
+
+
+/* image 2 *
+
+position: absolute;
+width: 73px;
+height: 73px;
+left: 88px;
+top: 55px;
+
+background: url(image.png);
+border-radius: 100px;
+
+
+/* Rectangle 7 *
+
+position: absolute;
+width: 52.96px;
+height: 8.47px;
+left: 98.39px;
+top: 106.71px;
+
+background: #000000;
+
+*/
