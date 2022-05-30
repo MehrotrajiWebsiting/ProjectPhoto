@@ -1,0 +1,204 @@
+#wedding:hover,#wedding:active,#photoshoot:hover,#photoshoot:active,#trip:hover,#trip:active{
+font-weight: 600;
+cursor: pointer;
+}
+/*VERY BIG*/
+@media(min-width:992px){
+    h1{
+    position: absolute;
+    width: 368px;
+    height: 87px;
+    left: 536px;
+    top: 5px;
+
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 4000;
+    font-size: 72px;
+    line-height: 87px;
+    text-align: center;
+
+    color: #000000;
+    }
+    #photos{
+    position: absolute;
+    width: 152px;
+    height: 56px;
+    left: 124px;
+    top: 126px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #000000;
+    }
+    #videos{                        
+position: absolute;
+width: 147px;
+height: 56px;
+left: 1024px;
+top: 141px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+
+color: #000000;
+}
+#wedding{
+position: absolute;
+width: 79px;
+height: 23px;
+left: 124px;
+top: 185px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+}
+#photoshoot{
+/* Photoshoot */
+
+position: absolute;
+width: 104px;
+height: 23px;
+left: 228px;
+top: 185px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+}
+#trip{
+/* Trips */
+
+position: absolute;
+width: 45px;
+height: 23px;
+left: 358px;
+top: 185px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+}
+#l1{
+position: absolute;
+width: 842.01px;
+height: 0px;
+left: 110px;
+top: 214.99px;
+border: 1px solid #000000;
+}
+#l2{
+position: absolute;
+width: 305.03px;
+height: 0px;
+left: 1012px;
+top: 215px;
+border: 1px solid #000000;
+}
+#b1,#b2,#b3,#b4{
+position: absolute;
+width: 276px;
+height: 172px;
+background: #C4C4C4;
+}
+#b1{
+    left: 1024px;
+top: 234px;
+}
+#b2{
+left: 1024px;   
+top: 409px;
+}
+#b3{
+left: 1024px;
+top: 584px;
+}
+#b4{
+left: 1024px;
+top: 759px;
+height: 86px;
+}
+#l3{
+position: absolute;
+width: 688px;
+height: 0px;
+left: 636px;
+top: 495px;
+border: 1px solid #000000;
+transform: rotate(90deg);
+}
+#r1,#r2,#r3{
+    position: absolute;
+    left: 124px;
+}
+.box1,.box2,.box3,.box4{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    margin: 2px;
+    background-color: #C4C4C4;
+}
+#r1{
+top: 235px;
+}
+#r2{
+top: 437px;
+}
+#r3{
+top: 639px;
+}
+#view{
+    /* Rectangle 12 */
+
+position: absolute;
+width: 259px;
+height: 75px;
+left: 590px;
+top: 871px;
+
+background: #073636;
+border-radius: 152px;
+}
+#view>div{
+text-align: center;
+font-family: 'Fredoka One';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+
+color: #FFFFFF;
+}
+}
+
+
+/*HALF WINDOW*/
+@media(min-width:768px) and (max-width:991.9px){
+
+}
+
+
+/*SMALL*/
+@media(max-width:767.9px){
+
+}
