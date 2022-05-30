@@ -7,6 +7,7 @@ body{
     float: left;
 }
 
+
 /*VERY BIG*/
 @media(min-width:992px){
 .smallcamera{
@@ -62,6 +63,42 @@ body{
   line-height: 79px;
   text-align: auto;
   color: #FFFFFF;
+  }
+  .para{
+
+    position: absolute;
+    width: 498px;
+    height: 168px;
+    left: 109px;
+    top: 429px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #FFFFFF;  
+  }
+#hire{
+position: absolute;
+width: 205px;
+height: 86px;
+left: 109px;
+top: 618px;
+
+background: #073636;
+border-radius: 80px;
+  }
+#hire>div{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+color: #FFFFFF;
   }
 }
 
@@ -124,6 +161,42 @@ body{
         width: 519px;
         height: 671px;
       }
+      .para{
+
+        position: absolute;
+        width: 498px;
+        height: 168px;
+        left: 25px;
+        top: 350px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 42px;
+        
+        color: #FFFFFF;  
+      }
+      #hire{
+        position: absolute;
+        width: 205px;
+        height: 86px;
+        left: 25px;
+        top: 568px;
+        
+        background: #073636;
+        border-radius: 80px;
+          }
+        #hire>div{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 42px;
+        text-align: center;
+        
+        color: #FFFFFF;
+          }
 }
 
 
@@ -166,10 +239,13 @@ body{
       color: black;
       font-size: 10px;
     }
-    #dabout:hover,#dnews:hover,#dcontact:hover,#dhome:hover{
+    #dabout:hover,#dnews:hover,#dcontact:hover,#dhome:hover,#dabout:active,#dnews:active,#dcontact:active,#dhome:active{
       color:#0e0e0e84;
       background-color: rgb(42, 121, 103);
       box-shadow: 1px 1px 1px 1px;
+    }
+    #mainbody{
+      position: relative;
     }
     #line1{
       margin-top: 10px;
@@ -196,6 +272,42 @@ body{
       width: 250px;
       height: 401px;
     }
+    .para{
+
+      position: absolute;
+      width: 200px;
+      height: 168px;
+      left: 15px;
+      top: 150px;
+      
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 22px;
+      
+      color: #FFFFFF;  
+    }
+    #hire{
+      position: absolute;
+      width: 100px;
+      height: 46px;
+      left: 15px;
+      top: 248px;
+      
+      background: #073636;
+      border-radius: 80px;
+        }
+      #hire>div{
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 42px;
+      text-align: center;
+      
+      color: #FFFFFF;
+        }
 }
 
 
