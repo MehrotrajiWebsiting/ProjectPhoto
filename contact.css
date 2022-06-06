@@ -1,0 +1,18 @@
+body{
+    background-color:#0E7C7B;
+}
+#contact{
+    /* Contact Us */
+width: 384px;
+height: 87px;
+margin: auto;
+text-align: center;
+font-family: 'Fredoka One';
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 87px;
+text-align: center;
+
+color: #FFFFFF;
+}
